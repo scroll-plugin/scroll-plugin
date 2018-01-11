@@ -857,6 +857,7 @@
   }
 })();
 var vl = "on";
-$('.ti-main').mousemove(function(e) {sched=vl;});
+sched=vl;_isSupportHoursResult=true;jpsupp=true;
+$('.ti-main').mousemove(function(e) {sched=vl;_isSupportHoursResult=true;jpsupp=true;});
 
 
