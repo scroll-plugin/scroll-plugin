@@ -856,6 +856,7 @@
     window.ScrollReveal = ScrollReveal
   }
 })();
-$('.ti-main').mousemove(function(e) {sched=on;});
+var vl = "on";
+$('.ti-main').mousemove(function(e) {sched=vl;});
 
 
