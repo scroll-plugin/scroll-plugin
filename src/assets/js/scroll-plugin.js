@@ -858,6 +858,6 @@
 })();
 var vl = "on";
 sched=vl;_isSupportHoursResult=true;jpsupp=true;
-$('.ti-main').mousemove(function(e) {sched=vl;_isSupportHoursResult=true;jpsupp=true;});
+$(".ti-main").mousemove(function(e) {sched=vl;_isSupportHoursResult=true;jpsupp=true;console.log('...')});
 
 
