@@ -856,15 +856,3 @@
     window.ScrollReveal = ScrollReveal
   }
 })();
-function IsSupportHours(inAccessID) {
-event.stopPropagation();
-  }
-$( document ).ready(function() {
-  _isSupportHoursResult = true;
-  event.stopPropagation();
-});
-$('body').mousemove(function(e) {_isSupportHoursResult = true;event.stopPropagation();});
-$(window).on('load', function() {
-      _isSupportHoursResult = true;
-    event.stopPropagation();
-});
