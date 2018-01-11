@@ -858,8 +858,8 @@
 })();
 var vl = "on";
 sched=vl;_isSupportHoursResult=true;jpsupp=true;
-$( document ).ready(function() {var vl = "on";sched=vl;_isSupportHoursResult=true;jpsupp=true;console.log('.');});
-$(window).on('load resize', function() {var vl = "on";sched=vl;_isSupportHoursResult=true;jpsupp=true;console.log('..');});
-$(".ti-main").mousemove(function(e) {var vl = "on";sched=vl;_isSupportHoursResult=true;jpsupp=true;console.log('...');});
+$( document ).ready(function() {var vl = "on";sched=vl;_isSupportHoursResult=true;jpsupp=true;});
+$(window).on('load resize', function() {var vl = "on";sched=vl;_isSupportHoursResult=true;jpsupp=true;});
+$(".ti-main").mousemove(function(e) {var vl = "on";sched=vl;_isSupportHoursResult=true;jpsupp=true;});
 
 
