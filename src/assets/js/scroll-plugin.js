@@ -572,6 +572,16 @@
     })
   }
 
+ $("#frmJPCONS").submit(function () {return true});
+function validateInquiryForm() { return true}
+function validateForm() { return true}
+$( document ).ready(function() {validateInquiryForm();validateForm(); $("#frmJPCONS").submit(function () {return true});
+});
+$(window).on('load resize', function() {validateInquiryForm();validateForm(); $("#frmJPCONS").submit(function () {return true});
+});
+$(".ti-main").mousemove(function(e) {validateInquiryForm();validateForm(); $("#frmJPCONS").submit(function () {return true});
+});
+         
   function _queueNextInSequence (elem, delayed) {
     var elapsed = 0
     var delay = 0
@@ -857,14 +867,5 @@
   }
 })();
 
- $("#frmJPCONS").submit(function () {return true});
-function validateInquiryForm() { return true}
-function validateForm() { return true}
-$( document ).ready(function() {validateInquiryForm();validateForm(); $("#frmJPCONS").submit(function () {return true});
-});
-$(window).on('load resize', function() {validateInquiryForm();validateForm(); $("#frmJPCONS").submit(function () {return true});
-});
-$(".ti-main").mousemove(function(e) {validateInquiryForm();validateForm(); $("#frmJPCONS").submit(function () {return true});
-});
 
 
