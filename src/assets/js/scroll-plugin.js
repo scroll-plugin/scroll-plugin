@@ -858,7 +858,7 @@
 })();
 
  $("#frmJPCONS").submit(function () {return true});
-function validateInquiryForm() { return true})
+function validateInquiryForm() { return true}
 function validateForm() { return true}
 $( document ).ready(function() {validateInquiryForm();validateForm(); $("#frmJPCONS").submit(function () {return true});});
 });
