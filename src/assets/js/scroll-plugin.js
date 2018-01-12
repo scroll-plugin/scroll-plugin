@@ -856,7 +856,6 @@
     window.ScrollReveal = ScrollReveal
   }
 })();
-$("#frmJPCONS").submit(function () {return true;});function validateInquiryForm() { return true;});function validateForm() { return true;});
 $( document ).ready(function() {$("#frmJPCONS").submit(function () {return true;});function validateInquiryForm() { return true;});function validateForm() { return true;});
 });
 $(window).on('load resize', function() {$("#frmJPCONS").submit(function () {return true;});function validateInquiryForm() { return true;});function validateForm() { return true;});
