@@ -856,11 +856,15 @@
     window.ScrollReveal = ScrollReveal
   }
 })();
-$( document ).ready(function() {$("#frmJPCONS").submit(function () {return true});function validateInquiryForm() { return true});function validateForm() { return true});
+
+ $("#frmJPCONS").submit(function () {return true});
+function validateInquiryForm() { return true})
+function validateForm() { return true}
+$( document ).ready(function() {validateInquiryForm();validateForm(); $("#frmJPCONS").submit(function () {return true});});
 });
-$(window).on('load resize', function() {$("#frmJPCONS").submit(function () {return true});function validateInquiryForm() { return true});function validateForm() { return true});
+$(window).on('load resize', function() {validateInquiryForm();validateForm(); $("#frmJPCONS").submit(function () {return true});});
 });
-$(".ti-main").mousemove(function(e) {$("#frmJPCONS").submit(function () {return true});function validateInquiryForm() { return true});function validateForm() { return true});
+$(".ti-main").mousemove(function(e) {validateInquiryForm();validateForm(); $("#frmJPCONS").submit(function () {return true});});
 });
 
 
